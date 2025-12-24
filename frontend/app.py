@@ -54,7 +54,7 @@ st.markdown(
 )
 
 # Ensure the backend script is accessible
-backend_path = "D:/blog_generator/app.py"
+backend_path = "../blog_generator/app.py"
 
 if os.path.exists(backend_path):
     spec = importlib.util.spec_from_file_location("test", backend_path)
@@ -95,4 +95,5 @@ if st.button("Generate Blog", key="generate_blog"):
             unsafe_allow_html=True,
         )
     else:
+
         st.warning("⚠️ Please enter a topic!")
