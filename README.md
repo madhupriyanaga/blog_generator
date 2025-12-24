@@ -43,6 +43,3 @@ The Blog Generator is a Streamlit-based web application that leverages the LLaMA
 ## Notes
 - The backend script `app.py` in the `backend` folder must include a `generate_blog(topic)` function that returns the generated blog content.
 - Customize the app's appearance using the provided CSS in `frontend/app.py`.
-
-## License
-This project is licensed under the MIT License.
